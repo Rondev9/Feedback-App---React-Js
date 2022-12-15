@@ -1,0 +1,42 @@
+.FeedbackAppContainer {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FeedbackAppHomeContainer {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 40px;
+  width: 50%;
+}
+.FeedbackAppContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.emojisList {
+  display: flex;
+  list-style-type: none;
+}
+.button {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+.emoji {
+  width: 30%;
+  height: 30%;
+}
+.loveEmoji {
+  height: 50px;
+  width: 50px;
+}
+.thankYouContainer {
+  display: None;
+}
